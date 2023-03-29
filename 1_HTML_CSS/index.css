@@ -1,6 +1,11 @@
+html{
+    font-size: 62.25%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 h2 {
     font-size: 500;
@@ -28,7 +33,7 @@ h2 {
     align-items: center;
 }
 
-.full-width{
+.row{
     width: 100%;
 }
 
@@ -39,6 +44,10 @@ input{
     padding: 4px 10px;
     font-size: 16px;
     box-sizing: border-box;
+}
+
+.cursor{
+    cursor: pointer;
 }
 
 .half-width {
@@ -91,7 +100,7 @@ input{
     color: mediumturquoise;
 }
 
-.bt-container {
+.btn-container {
     display: flex;
     justify-content: space-between;
 }
