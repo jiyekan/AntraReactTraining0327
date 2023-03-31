@@ -1,0 +1,44 @@
+
+body{
+    margin: 0 15%;
+}
+
+.header-container{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.title{
+    flex-grow: 1;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.search-icon{
+    height: 100%;
+}
+
+
+.footer-container{
+    background-color:lightgray;
+    text-align: center;
+}
+
+.footer-info-wrap {
+    padding: 40px;
+    margin: 10px;
+}
+
+.footer-info-wrap p{
+    margin: 0;
+    padding: 10px;
+}
+
+
