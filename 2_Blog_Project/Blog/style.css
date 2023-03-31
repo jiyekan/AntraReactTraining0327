@@ -1,0 +1,133 @@
+/* public style */
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit
+}
+
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.body-container{
+    position: fixed;
+    width: 100%;
+    max-width: 128rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.header-fluid-container{
+    display: flex;
+    max-width: 192rem;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    margin-bottom: 0;
+}
+
+.header-logos{
+    margin-left: 1.2rem;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.2rem;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.header-nav-item{
+    margin: 1.5rem;
+    vertical-align: middle;    
+}
+
+.header-nav a {
+    font-size: 2rem;
+    color:white;
+    text-decoration: none;
+}
+
+.logo{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem 0.2rem;
+}
+
+
+.main-container{
+    position: fixed;
+    width: 100%;
+    max-width: 128rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    display: block;
+}
+
+.article-container{
+    width:80%;
+    margin: 0 10%;
+}
+
+.article-title-container{
+    height: 50rem;
+    overflow: hidden;
+    position: relative;
+    /* font-size: x-large;
+    text-align: center;
+    vertical-align: bottom;
+    color: black;
+    background-image: url(../Images/1.png);
+    
+    background-size: cover;
+    margin-bottom: 1rem;
+    position: relative; */
+}
+
+.article-title-background{
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.article-title{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -110%);
+}
+
+.article-info-container{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-summary{
+    font-size: x-large;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.article-text-paragraph{
+    margin-bottom:2rem;
+}

@@ -1,0 +1,118 @@
+/* public style */
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit
+}
+
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.body-container{
+    position: fixed;
+    width: 100%;
+    max-width: 128rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.header-fluid-container{
+    display: flex;
+    max-width: 192rem;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    margin-bottom: 0;
+}
+
+.header-logos{
+    margin-left: 1.2rem;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1.2rem;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+.header-nav-item{
+    margin: 1.5rem;
+    vertical-align: middle;    
+}
+
+.header-nav a {
+    font-size: 2rem;
+    color:white;
+    text-decoration: none;
+}
+
+.logo{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem 0.2rem;
+}
+
+/* specfic style */
+.main-container{
+    margin-top: 0;
+    background-color: black;
+}
+
+.blogs-container{
+    margin: 0 auto 1rem;
+    width: 100%;
+}
+
+.blogs-container-row{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-item{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    color: aliceblue;
+    margin: 1rem 1rem;
+}
+
+.blog-pic{
+    max-width:100%;
+}
+
+.blog-title-clickable{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.blog-title{
+    width: 100%; 
+    padding: 2% 10%;
+}
+
+.blog-info{
+    margin: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: smaller;
+}
+
+
