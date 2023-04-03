@@ -1,6 +1,6 @@
 
 body{
-    margin: 0 15%;
+    margin: 0 10%;
 }
 
 .header-container{
@@ -10,13 +10,13 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .title{
     flex-grow: 1;
     text-align: center;
-    font-size: large;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: underline;
 }
